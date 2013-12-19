@@ -13,7 +13,7 @@ Usage:
 
 Java:
 
-ReadabilityParserClient client = new ReadabilityParserClient("<your key here">);
+ReadabilityParserClient client = new ReadabilityParserClient("<your key here>");
 
 Parser parseResponse = client.parse("http://blog.readability.com/2011/02/step-up-be-heard-readability-ideas/");
 
@@ -21,7 +21,7 @@ parseResponse.getContent();
 
 Scala:
 
-val ReadabilityParserClient client = new ReadabilityParserClient("<your key here">)
+val ReadabilityParserClient client = new ReadabilityParserClient("<your key here>")
 
 val parseResponse = client.parse("http://blog.readability.com/2011/02/step-up-be-heard-readability-ideas/")
 
